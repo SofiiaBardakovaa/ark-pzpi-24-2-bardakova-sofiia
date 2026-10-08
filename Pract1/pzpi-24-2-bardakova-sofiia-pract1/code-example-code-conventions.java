@@ -121,3 +121,17 @@ private void checkResult(Student student) {
         System.out.println("Passed");
     }
 }
+
+
+// Основний код
+public int add(int a, int b) {
+    return a + b;
+}
+
+// Тест
+@Test
+void shouldAddNumbers() {
+    Calculator calculator = new Calculator();
+
+    assertEquals(5, calculator.add(2, 3));
+}
