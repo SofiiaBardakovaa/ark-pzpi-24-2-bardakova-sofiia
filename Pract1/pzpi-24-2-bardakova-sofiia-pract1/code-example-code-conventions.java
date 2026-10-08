@@ -95,3 +95,29 @@ public void calculateStudentAverageGrade(
         List<Double> grades,
         boolean includeExtraCredits) {
 }
+
+// Рефакторинг методом Extract Method
+// До рефакторингу
+public void processStudent(Student student) {
+    System.out.println(student.getName());
+
+    if (student.getGrade() >= 60) {
+        System.out.println("Passed");
+    }
+}
+
+// Після рефакторингу
+public void processStudent(Student student) {
+    printStudentName(student);
+    checkResult(student);
+}
+
+private void printStudentName(Student student) {
+    System.out.println(student.getName());
+}
+
+private void checkResult(Student student) {
+    if (student.getGrade() >= 60) {
+        System.out.println("Passed");
+    }
+}
