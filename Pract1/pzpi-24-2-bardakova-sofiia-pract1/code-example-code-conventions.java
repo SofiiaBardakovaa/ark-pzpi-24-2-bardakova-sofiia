@@ -84,3 +84,14 @@ if(age>=18){ }
 // Гарний приклад
 int result = a + b;
 if (age >= 18) { }
+
+// Довжина рядка
+// Поганий приклад
+public void calculateStudentAverageGrade(Student student, List<Double> grades, boolean includeExtraCredits) { }
+
+// Гарний приклад
+public void calculateStudentAverageGrade(
+        Student student,
+        List<Double> grades,
+        boolean includeExtraCredits) {
+}
