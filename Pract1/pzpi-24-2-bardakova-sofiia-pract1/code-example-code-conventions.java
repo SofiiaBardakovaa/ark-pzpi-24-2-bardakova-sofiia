@@ -50,3 +50,15 @@ public class Student {
         return age;
     }
 }
+
+// Структура вихідного файлу
+// Copyright (c) 2026 Sofiia Bardakova.
+
+package com.example.student;
+
+import java.util.List;
+
+public class Student {
+
+    // Class contents
+}
