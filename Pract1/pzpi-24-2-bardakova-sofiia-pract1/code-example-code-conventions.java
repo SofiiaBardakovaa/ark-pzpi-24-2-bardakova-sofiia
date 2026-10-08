@@ -74,3 +74,13 @@ if (age >= 18)
         if (age >= 18) {
         System.out.println("Adult");
 }
+
+
+// Пробіли навколо операторів
+// Поганий приклад
+int result=a+b;
+if(age>=18){ }
+
+// Гарний приклад
+int result = a + b;
+if (age >= 18) { }
