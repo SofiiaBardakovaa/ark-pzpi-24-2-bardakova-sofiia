@@ -122,7 +122,7 @@ private void checkResult(Student student) {
     }
 }
 
-
+// Рекомендації щодо тестування коду
 // Основний код
 public int add(int a, int b) {
     return a + b;
@@ -134,4 +134,16 @@ void shouldAddNumbers() {
     Calculator calculator = new Calculator();
 
     assertEquals(5, calculator.add(2, 3));
+}
+
+// Рекомендації щодо документування коду
+/**
+ * Calculates the sum of two numbers.
+ *
+ * @param a first number
+ * @param b second number
+ * @return sum of two numbers
+ */
+public int add(int a, int b) {
+    return a + b;
 }
