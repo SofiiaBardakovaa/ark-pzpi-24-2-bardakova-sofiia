@@ -7,3 +7,11 @@ class student_data {
 class StudentData {
 }
 
+//Найменування пакетів
+// Поганий приклад
+package MyProject;
+
+// Гарний приклад
+package myproject;
+package studentdata;
+package com.example.myproject;
