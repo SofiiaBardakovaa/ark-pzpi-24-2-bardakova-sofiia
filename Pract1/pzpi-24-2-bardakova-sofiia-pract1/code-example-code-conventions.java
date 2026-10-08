@@ -62,3 +62,15 @@ public class Student {
 
     // Class contents
 }
+
+// Використання фігурних дужок
+// Поганий приклад
+if (age >= 18)
+        {
+        System.out.println("Adult");
+}
+
+// Гарний приклад
+        if (age >= 18) {
+        System.out.println("Adult");
+}
